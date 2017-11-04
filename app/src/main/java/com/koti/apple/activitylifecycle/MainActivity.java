@@ -18,4 +18,10 @@ public class MainActivity extends AppCompatActivity {
         super.onResume();
         Log.e(TAG, "onResume: >>> ");
     }
+
+    @Override
+    protected void onPause() {
+        super.onPause();
+        Log.e(TAG, "onPause: >>> ");
+    }
 }
